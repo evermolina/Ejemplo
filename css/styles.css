@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(34, 193, 195);
+    background: linear-gradient(270deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+    padding: 30px;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .testimonial {
+        font-size: 3vw;
+    }
+}
+
+.contributors img {
+    border-radius: 50%;
+}
+
+.separator {
+    color: #FFF
+}
+
+.white-text {
+    color: #FFF;
+}
+
+.card-header {
+    display: flex;
+    flex-direction: row;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: flex-start;
+}
+
+.student-info {
+    padding: 0 10px;
+}
+
+.student-info p {
+    font-size: 0.8rem;
+    margin: 0;
+}
+
+.bold-text {
+    font-weight: bold;
+}
